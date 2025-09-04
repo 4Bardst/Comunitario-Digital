@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eventos de Nuestro Pueblo</title>
-    <meta name="description" content="Calendario de eventos comunitarios para mantener a todos conectados.">
+    <meta name="description" content="El calendario comunitario con todas las actividades y eventos locales.">
     
     <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
 
@@ -14,23 +24,18 @@
 
         <header class="text-center mb-10">
             <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-2">Tablón Comunitario</h1>
-            <p class="text-lg text-gray-600">Los eventos y actividades de nuestro pueblo, en un solo lugar.</p>
+            <p class="text-lg text-gray-600">Actividades y eventos de nuestro pueblo, en un solo lugar.</p>
         </header>
 
-        <div class="text-center mb-12">
-            <a href="mailto:tu-email-de-contacto@email.com" class="bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition duration-300 ease-in-out text-lg shadow-md">
-                🎉 ¿Quieres añadir un evento? ¡Contáctanos!
-            </a>
-        </div>
-
-        <main class="bg-white p-2 sm:p-4 rounded-lg shadow-md border border-gray-200">
+        <main class="bg-white rounded-lg shadow-lg border border-gray-200">
             
-            <iframe src="https://calendar.google.com/calendar/embed?src=90adf0aa7f75b772864863c19add5784676239c566c5b657c543293841a92712%40group.calendar.google.com&ctz=America%2FMexico_City" class="w-full h-[600px]" style="border: 0" frameborder="0" scrolling="no"></iframe>
+            <iframe src="https://calendar.google.com/calendar/embed?src=4f79f3cfe7dc586a7c6ae86e7f1a4189efb1bd9c0ec7c67467aacf3c3b864568%40group.calendar.google.com&ctz=America%2FMexico_City" style="border: 0" class="w-full h-[600px] sm:h-[700px]" frameborder="0" scrolling="no"></iframe>
 
         </main>
 
         <footer class="text-center mt-12 text-gray-500">
             <p>&copy; 2025 Comunidad de Nuestro Pueblo.</p>
+            <p class="text-sm mt-1">¿Quieres proponer un evento? <a href="URL_DE_TU_GOOGLE_FORM" target="_blank" class="text-blue-600 hover:underline">¡Hazlo aquí!</a></p>
         </footer>
 
     </div>
