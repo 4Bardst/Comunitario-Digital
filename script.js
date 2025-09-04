@@ -1,7 +1,7 @@
 // --- CONFIGURACIÓN ---
-// Pega aquí los códigos que obtuviste en el Paso 1.
+// Pega aquí los códigos que obtuviste.
 const CALENDAR_ID = '4f79f3cfe7dc586a7c6ae86e7f1a4189efb1bd9c0ec7c67467aacf3c3b864568@group.calendar.google.com';
-const API_KEY = 'AIzaSyBTsWnSYjXyQYh3LUdo0gRjsXCDzvYYk2Q';
+const API_KEY = 'AIzaSyBTsWnSYjXyQYh3LUdo0gRjsXCDzvYYk2Q'; // ¡Recuerda usar tu nueva clave!
 
 // --- CÓDIGO ---
 
@@ -64,10 +64,7 @@ function displayEvents(events) {
                     </p>
                     <p class="text-gray-700 text-sm">${event.description || ''}</p>
                 </div>
-                <a href="${event.htmlLink}" target="_blank" class="mt-4 text-blue-600 font-semibold hover:underline text-sm self-start">
-                    Ver más detalles &rarr;
-                </a>
-            </div>
+                </div>
         `;
         
         // Añade la tarjeta recién creada al contenedor.
